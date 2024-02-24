@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Readex+Pro:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.login{
+    display: flex;
+
+}
+.login .txt{
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.login h3{
+    padding-top: 1px;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.login h3 span{
+    color: #7A1821;
+}
+
+.login h2{
+    padding-top: 50px;
+    font-size: 50px;
+    padding-left: 30px;
+    color: #7A1821;
+}
+
+.inp{
+    padding-left: 100px; 
+    margin-top: 1px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inp input{
+    padding: 17px; /* Adjust padding */
+    margin: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 420px; /* Match width with button */
+    font-size: 20px; /* Match font size with button */
+}
+
+.inp input:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #7A1821; /* Change border color on focus */
+}
+.inp div input{
+    border-radius: 5px;
+    margin: 7px;
+    border: 2px solid black;
+}
+
+.inp button{
+    scale: 1;
+    width: 455px;
+    background-color: #7A1821;
+    height: 60px;
+    margin-top: 20px;
+    border: 0 solid;
+    border-radius: 5px;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+    
+}
+.inp button:hover {
+   scale: 1.1;
+     transition: 0.5s;
+    background-color: #a12431;
+    cursor: pointer;
+}
+
+
+.green{
+    margin-top: 55px;
+    background-color: #2caa69b1;
+    width: 50%;
+    padding-bottom: 50px;
+    height: 480px;
+    margin-bottom: 20px;
+    border-radius: 65px 0 0 65px;
+   
+}
+.green h1{
+ padding-top: 40px;
+ padding-left: 50px;
+
+    font-size: 37px;
+    font-weight: 700;
+  
+}
+.green img{
+    width: 360px;
+    height: 360x;
+    padding-left: 130px;
+    padding-top: 40px;
+}
+
+
+
+
+
